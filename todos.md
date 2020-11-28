@@ -1,6 +1,5 @@
 # todo
 
-- properly align th
 - go live
 - contact farm Jost
 
