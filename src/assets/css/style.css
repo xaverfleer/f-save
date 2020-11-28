@@ -98,6 +98,11 @@ body {
   list-style-type: none;
 }
 
+.summary-entry__key {
+  padding-right: 1em;
+  text-align: left;
+}
+
 .wrapper {
   display: grid;
   justify-items: end;

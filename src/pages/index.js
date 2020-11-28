@@ -7,7 +7,7 @@ import { entries } from '../appData'
 
 const SummaryEntry = ({ props }) => (
   <tr className="summary-entry">
-    <th>{props.key}</th>
+    <th className="summary-entry__key">{props.key}</th>
     <td>{props.value}</td>
   </tr>
 )
