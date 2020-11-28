@@ -18,7 +18,7 @@ const page = () => {
   return (
     <Layout>
       <Helmet>
-        <title>f-save.ch | Foodsave in Bern</title>
+        <title>f-save.ch | Startseite</title>
         <meta name="description" content={siteDescription} />
       </Helmet>
       <h1>Food Save in Bern</h1>
