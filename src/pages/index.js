@@ -13,12 +13,12 @@ const SummaryEntry = ({ props }) => (
 )
 
 const page = () => {
-  const siteDescription = 'Irene Habegger | Artist'
+  const siteDescription = 'f-save | Foodsave in Bern und Umgebung'
 
   return (
     <Layout>
       <Helmet>
-        <title>Irene Habegger | Artist</title>
+        <title>f-save.ch | Foodsave in Bern</title>
         <meta name="description" content={siteDescription} />
       </Helmet>
       <h1>Food Save in Bern</h1>

@@ -1,9 +1,7 @@
 # todo
 
 - properly align th
-- add favicon
-- clear irene specific code
-- to live
+- go live
 - contact farm Jost
 
 # xaver requests from Jost

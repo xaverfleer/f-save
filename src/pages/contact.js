@@ -3,8 +3,8 @@ import Helmet from 'react-helmet'
 
 import Layout from '../components/Layout'
 
-const HomeIndex = () => {
-  const siteDescription = 'Irene Habegger | Contact'
+const page = () => {
+  const siteDescription = 'f-save | Contact'
 
   return (
     <Layout>
@@ -24,4 +24,4 @@ const HomeIndex = () => {
   )
 }
 
-export default HomeIndex
+export default page

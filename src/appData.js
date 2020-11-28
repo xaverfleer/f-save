@@ -8,7 +8,7 @@ const appData = {
       contact: '077 44 66 505',
       description:
         'Es macht ein falsches Gerücht die Runde, dieses Kartoffeln gäbe es nicht. Die Kartoffeln gibt es! Bitte Säcke/Harassen/Behälter selber mitbringen.',
-      data: '28.11.2020',
+      date: '28.11.2020',
     },
   ],
 }
