@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
 
-a.link {
-  color: inherit;
+a.link,
+a:any-link {
+  color: #d95a88;
   text-decoration: none;
 }
 

@@ -8,7 +8,13 @@ import { entries } from '../appData'
 const SummaryEntry = ({ props }) => (
   <tr className="summary-entry">
     <th className="summary-entry__key">{props.key}</th>
-    <td>{props.value}</td>
+    <td>
+      {props.isPhone ? (
+        <a href={`tel:${props.value}`}>{props.value}</a>
+      ) : (
+        props.value
+      )}
+    </td>
   </tr>
 )
 
@@ -24,9 +30,7 @@ const page = () => {
       <h1>Food Save in Bern</h1>
       {entries.map((e) => (
         <div class="entry">
-          <h2>
-            {e.what} in {e.where}
-          </h2>
+          <h2>{e.title}</h2>
           <table className="entry__summary">
             {e.what && <SummaryEntry props={{ key: 'Was:', value: e.what }} />}
             {e.howMuch && (
@@ -35,6 +39,11 @@ const page = () => {
             {e.what && <SummaryEntry props={{ key: 'Wo:', value: e.where }} />}
             {e.what && (
               <SummaryEntry props={{ key: 'Preis:', value: e.price }} />
+            )}
+            {e.what && (
+              <SummaryEntry
+                props={{ key: 'Telefon:', value: e.phone, isPhone: true }}
+              />
             )}
             {e.date && (
               <SummaryEntry props={{ key: 'Erstellt am', value: e.date }} />

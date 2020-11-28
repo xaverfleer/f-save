@@ -1,11 +1,12 @@
 const appData = {
   entries: [
     {
+      title: '70 Tonnen Kartoffeln',
       what: 'Kartoffeln',
       howMuch: '70 Tonnen',
-      where: 'Blinzern',
+      where: 'Steingrubenweg 44, 3095 Spiegel b. Bern BE',
       price: 'CHF 2 / kg',
-      contact: '077 44 66 505',
+      phone: '031 971 40 19',
       description:
         'Es macht ein falsches Gerücht die Runde, dieses Kartoffeln gäbe es nicht. Die Kartoffeln gibt es! Die Kartoffeln gibt es in 1, 3 und 10 kg Säcken.',
       date: '28.11.2020',
