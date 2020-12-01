@@ -29,8 +29,11 @@ const page = () => {
       </Helmet>
       <h1>Food Save in Bern</h1>
       {entries.map((e) => (
-        <div class="entry">
-          <h2>{e.title}</h2>
+        <div className="entry">
+          <h2>
+            {e.title}
+            <span className="entry__detail-text"> – {e.date}</span>
+          </h2>
           <table className="entry__summary">
             {e.what && <SummaryEntry props={{ key: 'Was:', value: e.what }} />}
             {e.howMuch && (
@@ -44,9 +47,6 @@ const page = () => {
               <SummaryEntry
                 props={{ key: 'Telefon:', value: e.phone, isPhone: true }}
               />
-            )}
-            {e.date && (
-              <SummaryEntry props={{ key: 'Erstellt am', value: e.date }} />
             )}
           </table>
           <p>{e.description}</p>

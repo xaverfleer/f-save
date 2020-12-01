@@ -1,15 +1,15 @@
 const appData = {
   entries: [
     {
-      title: '70 Tonnen Kartoffeln',
+      title: '70 Tonnen Bio-Kartoffeln',
       what: 'Kartoffeln',
-      howMuch: '70 Tonnen',
+      howMuch: '6 Tonnen',
       where: 'Steingrubenweg 44, 3095 Spiegel b. Bern BE',
       price: 'CHF 2 / kg',
       phone: '031 971 40 19',
       description:
-        'Es macht ein falsches Gerücht die Runde, dieses Kartoffeln gäbe es nicht. Die Kartoffeln gibt es! Die Kartoffeln gibt es in 1, 3 und 10 kg Säcken.',
-      date: '28.11.2020',
+        'Gerüchte machen die Runde. Es gäbe viele Tonnen Kartoffeln, es gäbe keine Kartoffeln. Richtig ist: es gibt sie, diese Kartoffeln! (Allerdings sind es 6 statt 70 Tonnen.) Die 2.Klass-Kartoffeln sind in 1, 3 und 10 kg Säcken abgepackt.',
+      date: '1. Dezeber 2020',
     },
   ],
 }
