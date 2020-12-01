@@ -2,6 +2,9 @@
 
 - go live
 - contact farm Jost
+- daily/weekly newsletter
+- mail verteiler
+- consider: essen-vom-hof.ch
 
 # xaver requests from Jost
 
