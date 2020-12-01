@@ -12,3 +12,4 @@
 - check all data
 - photograph to upload
 - contact information
+- Sorte
