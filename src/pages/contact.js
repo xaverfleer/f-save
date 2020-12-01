@@ -13,7 +13,7 @@ const page = () => {
         <meta name="description" content={siteDescription} />
       </Helmet>
       <p>
-        Kennst du andere Lebensmittel de gerettet werden können? Ist einer der
+        Kennst du andere Lebensmittel die gerettet werden können? Ist einer der
          Einträge nicht mehr aktuell? Möchtest du informiert werden, wenn es
         Essen zu retten gibt? Hast du sonstige Fragen oder Anregungen?
       </p>
