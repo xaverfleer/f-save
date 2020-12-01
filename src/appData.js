@@ -1,7 +1,7 @@
 const appData = {
   entries: [
     {
-      title: '70 Tonnen Bio-Kartoffeln',
+      title: '6 Tonnen Bio-Kartoffeln',
       what: 'Kartoffeln',
       howMuch: '6 Tonnen',
       where: 'Steingrubenweg 44, 3095 Spiegel b. Bern BE',
